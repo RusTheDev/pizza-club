@@ -1,0 +1,121 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Cabin, sans-serif;
+}
+h1, 
+h2, 
+h3
+{
+    font-family: Fredoka One, serif;
+    line-height: 0.9.em;
+}
+* {
+    box-sizing: border-box;
+}
+nav {
+    background-color: #FA7409;
+    color: #fff;
+    padding: 5px;
+    text-align: end;
+}
+
+#logo {
+    float: left;
+    text-align: center;
+    padding: 0px 0px;
+    width: 230px;
+    height: 43px;
+    margin: auto auto;
+}
+#logo:hover{
+    background: #FA7409;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #000;
+    background: #fff;
+    display: inline-block;
+    width: 100px;
+    border: 2px black;
+    border-style: solid;
+}
+a:hover {
+    color: #fff;
+    background: #FA7409;
+}
+
+.featured {
+    width: 100vw;
+    height: 35vh;
+    background: rgb(200, 200, 200);
+    display: grid;
+    padding: 10px;
+}
+.featuredText {
+    width: 40%;
+    padding: 10px;
+    /*    justify-self: end;*/
+    align-self: flex-end;
+    margin: 0 auto;
+    /*    margin: auto auto;*/
+}
+ 
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+}
+.cell {
+    height: 100px;
+}
+.col1 {
+    grid-column-end: span 12;
+}
+.colname {
+    grid-column-end: span 6;
+    height: 40px;
+    background-color: #fff;
+
+}                                                   .col2 {
+    grid-column-end: span 6;
+    height: 300px;
+    border: 2px black;
+    border-style: solid;
+    background-color: #EFE9ED;
+    line-height: 1.0em;
+}
+
+.col6 {
+    grid-column-end: span 2;
+    grid-column: 7;
+    height: 50px !important;
+    width: 100px;
+    border: 2px black;
+    border-style: solid;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+.col6:hover {
+    color: #fff;
+    background: #FA7409;
+}
+.centered {
+    width: 80%;
+    margin: 40px auto;
+}

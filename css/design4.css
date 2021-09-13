@@ -1,0 +1,132 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Cabin, sans-serif;
+}
+h1, 
+h2, 
+h3
+{
+    font-family: Fredoka One, serif;
+    line-height: 1.0em;
+}
+* {
+    box-sizing: border-box;
+}
+nav {
+    background-color: #FA7409;
+    color: #fff;
+    padding: 5px;
+    text-align: end;
+}
+
+#logo {
+    float: left;
+    text-align: center;
+    padding: 0px 0px;
+    width: 230px;
+    height: 43px;
+    margin: auto auto;
+}
+#logo:hover{
+    background: #FA7409;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #000;
+    background: #fff;
+    display: inline-block;
+    width: 100px;
+    border: 2px black;
+    border-style: solid;
+}
+a:hover {
+    color: #fff;
+    background: #FA7409;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+}
+.cell {
+    height: 100px;
+}
+.centered {
+    width: 80%;
+    margin: 40px auto;
+}
+.col3 {
+    grid-column-end: span 4;
+}
+.colname {
+    grid-column-end: span 4;
+    height: 30px ;
+    background-color: #fff;
+}
+.coldiscord {
+    grid-column-end: span 4;
+    height: 100px;
+    background-color: #fff;
+}
+.colfeed {
+    grid-column-end: span 4;
+    height: 100px;
+        background-color: #fff;
+
+}
+.colmail {
+    grid-column-end: span 4;
+    height: 150px;
+    border: 2px black;
+    border-style: solid;
+    padding: 8px;
+        background-color: #EFE9ED;
+
+}
+.colymail {
+    background-color: #EFE9ED;
+    grid-column-end: span 4;
+    height: 35px;
+    border: 2px black;
+    border-style: solid;
+    padding: 8px;
+
+}
+.colsmail {
+    grid-row: 4;
+    grid-column-end: span 4;
+    height: 35px;
+    border: 2px black;
+    border-style: solid;
+    padding: 8px;
+    background-color: #EFE9ED;
+}
+.colsend {
+    grid-column-end: span 1;
+    grid-row: 5;
+    height: 40px !important;
+    width: 100px;
+    border: 2px black;
+    border-style: solid;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+.colsend:hover{
+    color: #fff;
+    background: #FA7409;
+}
